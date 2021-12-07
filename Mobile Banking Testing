@@ -1,0 +1,114 @@
+Precondition
+
+The user must already be registered in the application with an email address, phone number and password.
+A registered user must be able to log in successfully.
+
+I
+Title: Replenishment.
+Description: Replenishment of an electronic wallet with a card of another bank.
+Test steps: 
+The user clicks a "Replenish" icon in the main menu on the screen of the opened application.
+Selects the line "with a card of another bank". 
+Selects "add new card" in the opened window.
+Enters card details.
+Enters the amount to transfer.
+Presses "Replenish".
+Expected result: The system confirms the correctness of the data entry.
+The requested amount of money is displayed on the accont balance.
+
+II
+Title: Replenishment.
+Description: Replenishment of an electronic wallet with a card of another bank.
+Test steps: 
+The user clicks a "Replenish" icon in the main menu on the screen of the open application.
+Selects the line "with a card of another bank". 
+Selects "add new card" in the open window.
+Enters the correct card details.
+Enters the transfer amount in excess of the allowed limit for one operation.
+Presses "Replenish".
+Expected result: The system issues a warning that an incorrect amount has been entered.
+
+III
+Title: Payment.
+Description: Mobile operator service fees.
+Test steps: 
+The user clicks the "payments" icon in the menu on the main application screen .
+Selects the "new payment" button.
+Chooses operator A1.
+Selects "Balance replenishment" by phone number.
+Enters his phone number in the correct format as shown on the screen.
+Enters the amount to be paid.
+Presses "pay".
+Expected result: A successful payment receipt appeares on the screen.
+
+IV
+Title: Payment.
+Description: Mobile operator service fees.
+Test steps: 
+The user clicks the "payments" icon in the menu on the main application screen .
+Selects the "new payment" button.
+Chooses operator MTS.
+Selects "Balance replenishment" by phone number.
+Enters his phone number in the incorrect format.
+Presses "pay".
+Expected result: The system offers to check the correctness of data entry.
+
+V
+Title: Transfer.
+Description:Transfering money to the contact via chat.
+Test steps: 
+The user clicks the "transfers" icon in the menu on the main application screen .
+Selects the "via chat" line.
+Chooses one of the conctact in the list.
+Selects "Send money".
+Enters the amount to be sent.
+Presses "transfer".
+Expected result: The system confirms the success of the transfer.
+
+VI
+Title: Payment.
+Description: Buying a bus ticket.
+Test steps: 
+The user clicks the "buy" button, which is located to the right of "my tickets" in the menu on the main screen of the application.
+Chooses one of several types of tickets in the list.
+Presses "buy".
+Expected result: The system indicates that the user now has a ticket marked in green and the amount of time remaining until the trip is complete.
+
+VII
+Title: Credit card.
+Description: Ordering a virtual credit card.
+Test steps: 
+The user clicks the "…" icon on the top right corner of the application screen.
+Chooses "order a vuirtual credit card".
+Enters a secret word according to the parameters.
+Presses "place the order".
+Expected result: The system indicates that incorrect characters have been used and prompts to re-enter the data.
+
+VIII
+Title: Payment.
+Description: Payment using QR-code.
+Test steps: 
+The user clicks the"scanner" icon on the bottom right corner of the application screen.
+The user points the camera at the QR-code to scan.
+The user confirms the payment.
+Expected result: A successful payment receipt appeares on the screen.
+
+IX
+Title: Account.
+Description: Hide the amount of money on the account.
+Test steps: 
+The user clicks the "eye" icon in the main application menu.
+Expected result: The amount on the account is hidden under the dots.
+
+X
+Title: Credit card.
+Description: Ordering and adding a credit card to the wallet.
+Test steps: 
+The user clicks the "…" icon on the top right corner of the application screen.
+Chooses "order a vuirtual credit card".
+Enters a secret word according to the parameters.
+Presses "place the order".
+The user confirms a system's offer to add a virtual card to the wallet.
+Expected result: The system indicates that the virtual card is ready for use.
+
+
